@@ -582,7 +582,7 @@ html {
     .personal-content,
     .boxing-content {
         padding: 5px;
-        overflow: hidden;
+        overflow: scroll;
     }
     .personal-training p,
     .boxing-classes p {
