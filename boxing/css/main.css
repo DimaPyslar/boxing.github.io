@@ -249,21 +249,22 @@ html {
     color: #fa2f56;
     font-size: 1.4em;
 }
-.personal-training button,
-.boxing-content button {
+.personal-training a,
+.boxing-content a {
     background-color: transparent;
     border: 1px solid #fa2f56;
     border-radius: 5px;
     color: #fff;
     padding: 15px 30px;
     text-transform: uppercase;
+    text-decoration: none;
     font-weight: bold;
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
 }
-.personal-training button:hover,
-.boxing-content button:hover {
+.personal-training a:hover,
+.boxing-content a:hover {
     background-color: #fa2f56;
     border: 1px solid #fff;
     -webkit-transition: 1s;
@@ -339,6 +340,11 @@ html {
     -ms-flex-align: center;
     align-items: center;
     padding: 50px 10%;
+}
+.contact-info h3{
+    text-transform: uppercase;
+    color: #fa2f56;
+    font-size: 1.5em;
 }
 .contact-info p {
     color: #c4c4c4;

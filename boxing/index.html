@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+	<meta charset="UTF-8">
+	<title>Nataliya Knyaz</title>
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -19,8 +21,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <meta charset="UTF-8">
-    <title>Nataliya Knyaz</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
@@ -36,9 +36,9 @@
 
         <div class="header-top">
             <div class="logo">
-                <img class="logo_icon animated fadeInLeft" src="img/logo1.png" alt="">
+                <img class="logo_icon animated fadeInLeft" src="img/logo1.png" alt="knyaz-logo">
                 <a href="https://www.goodlifefitness.com" target="_blank">
-                    <img class="logo_text" src="img/logo.png">
+                    <img class="logo_text" src="img/logo.png" alt="goodlifefitness-logo">
                 </a>
             </div>
             <div class="menu">
@@ -79,7 +79,7 @@
 
             <div class="header_social ">
                 <a href="#">
-                    <i class="fa fa-youtube fa-lg" aria-hidden="true" target="_blank"></i>
+                    <i class="fa fa-youtube fa-lg" aria-hidden="true" ></i>
                 </a>
                 <a href=" https://www.instagram.com/knyaz_nataliya/ " target="_blank">
                     <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
@@ -161,9 +161,9 @@
                     <h5>Personal training </h5>
                     <p>Goodlifefitness has more certified Personal Trainers than any other gym in Canada. Our Personal Trainers help you increase your knowledge of health and fitness while gaining self-confidence and establishing a habit onsistent workouts. Sometimes working towards a better you can be scary, but at GoodLife, we’re here to help! Whether you’re getting ready for your big day or you want to dance with your daughter on hers, our Personal Trainers develop a customized plan to help you reach your goals.
                     </p>
-                    <button href="#training_popup" class="personal-training-popup">read more</button>
+                    <a href=".training_popup" class="personal-training-popup">read more</a>
                 </div>
-                <div id="training_popup" class="mfp-hide popup">
+                <div  class="mfp-hide popup training_popup">
                     <div class="days">
                         <h2>Days & Time:</h2>
                         <p>Monday: 7:00 am - 8:00pm
@@ -199,8 +199,8 @@
                         <h5>Boxing classes</h5>
                         <p>Boxing Class teaches basic boxing skills and techniques, designed to increase muscular strength and cardio endurance the perfect class to get shredded! Boxing Class will include cardio calisthenics, shadow boxing, bag work (150lb. bag) and core strengthening exercises. You will sweat like crazy, build a rock solid core and burn hundreds of calories.</p>
                     </div>
-                    <button href="#boxing_popup" class="popup-link">read more</button>
-                    <div id="boxing_popup" class="mfp-hide popup">
+                    <a href=".boxing_popup" class="popup-link">read more</a>
+                    <div  class="mfp-hide popup boxing_popup">
                         <div class="days">
                             <h2>Days & Time:</h2>
                             <p>Wednesday & Friday: 12:00 pm</p>
@@ -213,13 +213,15 @@
                     </div>
                 </div>
             </div>
+         </div>
     </section>
 
 
 
     <section id="contacts">
         <div class="contact-info">
-            <p>CONTACT INFO : NATALIYA.KNYAZ@GOODLIFEFITNESS.COM</p>
+        <h3>Contact info </h3>
+            <p>MAIL : NATALIYA.KNYAZ@GOODLIFEFITNESS.COM</p>
             <p>LOCATION: Etobicoke King's Mill
                 <br>3280 Bloor Street West
                 <br>Etobicoke, Ontario
@@ -237,14 +239,14 @@
                 <input type="text" name="Name" placeholder="Name" required>
                 <input type="text" name="E-mail" placeholder="Mail" required>
                 <input type="text" name="Phone" placeholder="Phone" required>
-                <textarea name="massege" placeholder="Massage" id="" cols="" rows="5" required></textarea>
+                <textarea name="massege" placeholder="Massage" rows="5" required></textarea>
                 <button>Send</button>
             </form>
         </div>
 
     </section>
 
-    <section id="map">
+    <section id="location-map">
         <div id="map"></div>
     </section>
 
@@ -257,7 +259,7 @@
 
             <div class="header_social ">
                 <a href="#">
-                    <i class="fa fa-youtube fa-lg" aria-hidden="true" target="_blank"></i>
+                    <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
                 </a>
                 <a href=" https://www.instagram.com/knyaz_nataliya/ " target="_blank">
                     <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
@@ -275,7 +277,7 @@
     </button>
     <!-- back to top -->
 
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script  src="js/jquery-3.2.1.min.js"></script>
 
     <script src="js/slick.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1GCxwWfF8wIPAO_aTTG8Xtpy-VL3CU5s&callback=initMap">
