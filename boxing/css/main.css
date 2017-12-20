@@ -561,20 +561,33 @@ html {
     }
     .info {
         padding: 5px;
+        height: 100%;
+        margin-bottom: 30px;
+        overflow: scroll;
     }
+    .info p:last-child {
+    margin-top: 10px;
+}
+
     .mail_phone h4 {
         font-size: 0.7em;
     }
     .header_slider h3 {
         font-size: 1em;
     }
+    .personal-img, .boxing-img{
+
+
+    }
     .personal-content,
     .boxing-content {
         padding: 5px;
+        overflow: hidden;
     }
     .personal-training p,
     .boxing-classes p {
         font-size: 0.8em;
+        margin-bottom: 10px;
     }
     #contacts {
         padding: 5px;

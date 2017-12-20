@@ -181,15 +181,6 @@ function initMap() {
 
 //map end////////////////////////////////////
 
-//preloader
-$(document).ready(function() {
-
-    $('body').addClass('loaded')
-
-});
-
-//preloader end
-
 //button back to top 
 var $btnTop = $('.btn-top')
 $(window).on("scroll", function() {
