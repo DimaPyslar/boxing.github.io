@@ -1,0 +1,268 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+.education h3, .biography h3{font-size: 1.2em;}
+
+.education p ,.biography p{font-size: 0.8em;}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+.header_top{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+.header_top .header_social a {
+  margin: 0 0 0 15px;
+  font-size: 14px; }
+
+.header_top .header_social a:first-child {margin: 0; }
+
+.header_menu-items{display: none;}
+
+.icon {
+  display: block;
+  margin: 6px ;
+}
+
+.menu.menu-open .icon span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.menu.menu-open .icon span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #191919;
+}
+
+.menu.menu-open .icon span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #191919;
+}
+
+.menu.menu-open .icon span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.sl-cont h3{font-size: 1.3em;}
+
+#coment h1 {
+	font-size: 1.5em;
+}
+
+#coment span {
+	font-size: 1.5em;
+	line-height: 1em;
+}
+
+#personal_training .container .row{
+	text-align: center;
+}
+.personal_trainin_days,
+.personal_training_prise{
+	padding-left: 0px;
+}
+.personal_training_desc p, .boxing_decr p{
+	padding: 0 20px;
+}
+#boxing_classes .container .row{
+	text-align: center;
+}
+.boxing_img{
+	justify-content: center;
+}
+.boxing_days ,
+.boxing_prise {
+	padding-left: 0px;
+}
+.contact-info{
+	text-align: center;
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+.education h3, .biography h3{
+	font-size: 1em;
+}
+
+.education p ,.biography p{
+	margin: 5px 0;
+}
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+.header_menu .logo img{
+	display: none;
+}
+.header_menu .logo p {
+	margin-top: 105px;
+	padding-left: 10px;
+	font-weight: normal;
+}
+
+.main_slider{
+	display: none;
+}
+
+.header_top .header_social,
+.header_top .header_contact{display: none;}
+
+.header_menu{
+	 margin-top: -2px;
+   margin-bottom: 0px;
+}
+.mobile_text{
+	display: block;
+	position: absolute;
+	bottom: 50px;
+}
+
+header{
+	min-height: 100vh;
+	background-image: url(img/mobile-bg.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.adaptive_menu a {
+  	font-size: 1em;
+  	margin: 10px 0;
+  	border-bottom: 1px solid rgba(59, 59, 59, 0.44) ;
+  }
+  .adaptive_menu a:last-child{
+  	border-bottom: none ;
+  }
+
+.about_img{
+	padding: 0 ;
+}
+
+#about .container .row{
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+} 
+#coment h1 {
+	font-size: 1em;
+}
+
+#coment span {
+	font-size: 1em;
+	line-height: 1em;
+}
+
+.contact-info{
+	padding: 0 20px;
+}
+.contact-info p{
+	font-size: 0.8em;
+}
+.contact_form {
+padding: 0 20px;
+}
+footer .container .row{
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	
+}
+.footer_social{
+	text-align: center;
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.header_top .header_social a {font-size: 10px; }
+
+.header_top .header_contact p {font-size: 10px; }
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
